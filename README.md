@@ -53,3 +53,7 @@ python manage.py migrate
 ```
 python manage.py createsuperuser
 ```
+
+## Diagrama
+
+![Alt text](./img/diagrama.png)
