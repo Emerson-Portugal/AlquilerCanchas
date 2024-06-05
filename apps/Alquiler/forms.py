@@ -1,7 +1,7 @@
 from django import forms
-from .models import Producto
+from .models import Cancha
 
-class ProductoForm(forms.ModelForm):
+class CanchaForm(forms.ModelForm):
     class Meta:
-        model = Producto
-        fields = ['nomProducto', 'precio', 'descripcion', 'imagen', 'idAccProducto', 'idLocal']
+        model = Cancha
+        fields = ['nomCancha', 'precio', 'descripcion', 'imagen', 'idLocal']
