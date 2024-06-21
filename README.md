@@ -1,59 +1,70 @@
-# Crear entorno Virtual 
+# Getting Started with Create React App
 
-```cmd
-virtualenv -p python venv
-```
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Activar entorno Virtual 
+## Available Scripts
 
-```cmd
-.\venv\Scripts\activate
-```
+In the project directory, you can run:
 
-# Creacion del Archivo **requirements.txt**
+### `npm start`
 
-```cmd
-pip freeze > "requirements.txt"
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# Instlacion del Archivo **requirements.txt**
+### `npm test`
 
-```cmd
-pip install -r .\requirements.txt
-```
-## CREAR PROYETO INICIAL EN DJANGO
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```cmd
-django-admin startproject core .  
-```
+### `npm run build`
 
-## Para crear nuevas Apps
-```
-python ../manage.py startapp "nombre_app"
-```
-## EJECUTAR PROGRAMA
-```
-python .\manage.py runserver 127.0.0.1:8000     
-```
-## Para generar la carpeta static
-```
-python manage.py collectstatic
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Actualizacion 
-```
-python manage.py makemigrations
-```
-```
-python manage.py migrate
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Para crear el super Usuario
-```
-python manage.py createsuperuser
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Diagrama
+### `npm run eject`
 
-![Alt text](./img/diagrama.png)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
