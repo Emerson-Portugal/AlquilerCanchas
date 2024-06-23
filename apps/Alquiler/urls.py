@@ -16,5 +16,5 @@ router.register(r'detalles', DetalleReservaViewSet)
 
 
 urlpatterns = [
-    path('api/', include(router.urls)),
+    path('listado/', include(router.urls)),
 ]
