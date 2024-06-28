@@ -30,7 +30,6 @@ DJANGO_APPS = [
 ]
 
 PROJECT_APPS = [
-    'apps.login',
     'apps.alquiler',
 ]
 
