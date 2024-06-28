@@ -1,8 +1,20 @@
-# Reactjs + Django
+# Reactjs + Django  `Canchitas.com`
 
 Sistema de Alquiler de Canchas
 
-## Comandos de Instalacion Django
+# Integrantes
+
+- Aron Josue Hurtado Cruz
+- Luis Fernando Luque Nieto
+- Kevin Joel Linares Salinas
+- Elmerson Ramith Portugal Carpio
+
+### Curso `Ingeniería Web` 
+
+### Semestre  `ING-VII`
+
+
+# Comandos de Instalacion Django
 
 Requisitos previos, para la creacion de un entorno virtual en python
 
@@ -82,9 +94,7 @@ python manage.py makemigrations
 python .\manage.py runserver 127.0.0.1:8000 
 ```
 
-
-
-## Despligue en Reactjs + Django 
+# Despligue en Reactjs + Django 
 
 ```
 npm run build
@@ -92,6 +102,12 @@ npm run build
 ```
 python .\manage.py runserver 127.0.0.1:8000 
 ```
+
+# Ramas de Desarrollo
+
+- Rama `main` -> Esta es la rama principal 
+- Rama `desarrollo`
+- Rama `pruebas`
 
 
 
