@@ -13,6 +13,7 @@ Sistema de Alquiler de Canchas
 
 ### Semestre  `ING-VII`
 
+### Profesor  `Richart Smith Escobedo Quispe`
 
 # Comandos de Instalacion Django
 
