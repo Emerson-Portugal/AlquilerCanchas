@@ -2,7 +2,7 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .views import LocalViewSet, CanchaViewSet, HorarioViewSet, AccesoriosProductoViewSet, ReservaCanchaViewSet, DetalleReservaViewSet
-
+from . import views
 
 app_name = 'alquiler'  # Define el espacio de nombres aquí
 
