@@ -31,3 +31,13 @@ class DetalleReservaSerializer(serializers.ModelSerializer):
     class Meta:
         model = DetalleReserva
         fields = '__all__'
+
+class ReservaCanchaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ReservaCancha
+        fields = '__all__'
+
+class DetalleReservaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = DetalleReserva
+        fields = '__all__'

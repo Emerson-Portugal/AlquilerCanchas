@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservar Cancha</title>
+</head>
+<body>
+    <h1>Reservar Cancha</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ reserva_form.as_p }}
+        {{ detalle_form.as_p }}
+        <button type="submit">Reservar</button>
+    </form>
+</body>
+</html>
