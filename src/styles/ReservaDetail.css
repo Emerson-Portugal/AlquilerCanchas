@@ -1,0 +1,37 @@
+/* ReservaDetail.css */
+.reserva-detail {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    padding: 10px;
+  }
+  
+  .details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .details p strong {
+    color: #333;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  
