@@ -1,5 +1,11 @@
 from django.db import models
 
+# Create your models here.
+
+
+# models.py
+from django.db import models
+
 class Local(models.Model):
     idLocal = models.AutoField(primary_key=True)
     nomLocal = models.CharField(max_length=255)

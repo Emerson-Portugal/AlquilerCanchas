@@ -2,6 +2,8 @@
 from rest_framework import viewsets
 from .models import Local, Cancha, Horario, AccesoriosProducto, ReservaCancha, DetalleReserva
 from .serializers import LocalSerializer, CanchaSerializer, HorarioSerializer, AccesoriosProductoSerializer, ReservaCanchaSerializer, DetalleReservaSerializer
+from .models import ReservaCancha, DetalleReserva
+from .models import ReservaCancha, DetalleReserva
 
 class LocalViewSet(viewsets.ModelViewSet):
     queryset = Local.objects.all()
@@ -18,6 +20,14 @@ class HorarioViewSet(viewsets.ModelViewSet):
 class AccesoriosProductoViewSet(viewsets.ModelViewSet):
     queryset = AccesoriosProducto.objects.all()
     serializer_class = AccesoriosProductoSerializer
+
+class ReservaCanchaViewSet(viewsets.ModelViewSet):
+    queryset = ReservaCancha.objects.all()
+    serializer_class = ReservaCanchaSerializer
+
+class DetalleReservaViewSet(viewsets.ModelViewSet):
+    queryset = DetalleReserva.objects.all()
+    serializer_class = DetalleReservaSerializer
 
 class ReservaCanchaViewSet(viewsets.ModelViewSet):
     queryset = ReservaCancha.objects.all()

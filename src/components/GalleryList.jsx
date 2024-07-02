@@ -14,6 +14,11 @@ export function GalleryList() {
       });
   }, []);
 
+  const handleReserve = (canchaId) => {
+    // Aquí puedes implementar la lógica para la reserva, por ejemplo, hacer una solicitud POST al backend
+    console.log(`Cancha reservada con ID: ${canchaId}`);
+  };
+
   return (
     <div className="gallery">
       {canchas.map((cancha) => (
@@ -22,6 +27,7 @@ export function GalleryList() {
           <h2>{cancha.nomCancha}</h2>
           <p>{cancha.descripcion}</p>
           <p>Precio: ${cancha.precio}</p>
+          <button onClick={() => handleReserve(cancha.idCancha)}>Reservar</button>
         </div>
       ))}
     </div>
