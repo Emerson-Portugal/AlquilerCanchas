@@ -29,7 +29,7 @@ export function GalleryList() {
       duracion: 1.0, // Ejemplo de duración en horas
       estado: true,
       pago: cancha.precio,
-      idAccProducto: 2, // ID de un accesorio producto existente
+      idAccProducto: 1, // ID de un accesorio producto existente
       idHorario: 1 // ID de un horario existente
     };
 
